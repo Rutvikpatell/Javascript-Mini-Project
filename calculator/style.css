@@ -1,0 +1,48 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: 100%;
+}
+.container{
+    width: 350px;
+    height: 630px;
+    background-color: white;
+    margin: 1px auto;
+    border-radius: 5px;
+}
+.result{
+    height: 130px;
+}
+.keyboard{
+    height: 500px;
+}
+.history{
+    text-align: right;
+    font-size: 16px;
+    color: slategrey;
+    height: 40px;
+}
+.output{
+    text-align: right;
+    font-size: 40px;
+    height: 90px;
+}
+.number , .operator , .empty{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin:10px 20px;
+    border-radius: 50%;
+    border: none;
+}
+.empty{
+    background-color: white;
+}
+.number , .operator{
+    cursor: pointer;
+}
+.number:focus , .operator:focus{
+    outline: 0;
+}
+.number:active , .operator:active{
+    font-size: 4px;
+}
